@@ -1,5 +1,19 @@
-# Welcome to GitHub Desktop!
+# Client Name : Dr Soumya Skin Care Co.
+## Installation
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+Install the dependencies and devDependencies and start the server.
+
+```sh
+cd dillinger
+npm i
+node app
+```
+
+For production environments...
+
+```sh
+npm install --production
+NODE_ENV=production node app
+```
