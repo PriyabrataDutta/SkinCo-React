@@ -1,0 +1,93 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75);
+    color: black !important;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 10vh;
+    left: 10%;
+    width: 80%;
+    z-index: 100;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .header {
+    background: #5cdb95;
+    padding: 1rem;
+  }
+  
+  .header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+  header p
+  {
+    position: absolute;
+    left: 90%;
+    top: 1%;
+  }
+  
+  .content {
+    padding: 1rem;
+    background-color: white;
+  }
+  .content label
+  {
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+
+  .content input
+  {
+    margin-left: 40px;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid green;
+    margin: 15px;
+    font-size: 20px;
+  }
+  .content textarea
+  {
+    width: 80%;
+    height: 80px;
+  }
+  
+  @media (max-width:600px) {
+    
+    .modal {
+      
+      height: 80%;
+      overflow-y: scroll;
+    }
+  }
+  .actions {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+  }
+  .actions input
+  {
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    .modal {
+      left: calc(50% - 20rem);
+      width: 40rem;
+    }
+  }

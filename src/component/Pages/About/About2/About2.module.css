@@ -1,0 +1,100 @@
+.mainsection {
+  background-color: black;
+  padding-top: 3%;
+  margin-top: -5px;
+  color: white;
+}
+.content {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.content h1{
+  color: #5cdb95;
+
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0px 50px;
+}
+.cards h3
+{
+  color: #5cdb95;
+  text-transform: capitalize;
+  font-size: 21px;
+  min-height: 50px;
+}
+.cards p {
+  text-align: justify;
+  font-weight: 500;
+  font-size: 17px;
+} 
+
+.cards > div {
+  /* border: 1px solid black; */
+  width: 25%;
+   padding: 20px;
+  /* margin: px; */
+  /* height: 270px; */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  text-align: center;
+  color: black;
+}
+.buttondiv
+{
+
+  margin-top :40px;
+  text-align: center;
+  margin-left: 5%;
+  }
+
+.navButton {
+  display: inline-block;
+  padding: 0.5em 1em;
+ text-align: center;
+  color: black !important;
+  font-size: 18px;
+  background: #5cdb95;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to left, #5cdb95 50%, #f5f5f5 50%) right;
+  background-size: 200%;
+  transition: 0.1s ease-out;
+  position: relative;
+  
+  margin-top: -7px;
+  margin-right: 10px;
+    }
+.navButton:hover {
+  background-position: left;
+  color: black !important;
+}
+
+.buttonlearn a {
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: black;
+}
+.cards a {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 600px) {
+  .cards {
+    flex-direction: column;
+    margin-left: auto;
+    
+  }
+
+  .cards div {
+    width: 90%;
+    /* margin-left: auto; */
+    
+  }
+}

@@ -1,0 +1,41 @@
+#mysidenav > div {
+    position: fixed;
+    top: 40%;
+    right: -205px;
+    z-index: 999999;
+    padding: 10px;
+    width: 240px;
+    transition: 0.5s;
+  }
+  #mysidenav > div:hover {
+    right: 0px;
+  }
+  #mysidenav a {
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  #mysidenav svg {
+    font-size: 25px;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: bold;
+  }
+  #sidenavappiontment {
+    background: linear-gradient(45deg, #fe302b, #f89c07);
+    
+  }
+  #sidenavappiontment a {
+    display: flex;
+    align-items: center;
+    
+  }
+  #sidenavphone {
+    margin-top: 49px;
+    background: linear-gradient(45deg, #6438e0, #fe8d90);
+  }
+  #sidenavphone a{
+    display: flex;
+    align-items: center;
+  }

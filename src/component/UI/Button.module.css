@@ -1,0 +1,18 @@
+.buttonx {
+  /* font: 22px Arial; */
+  display: inline-block;
+  padding: 1em 2em;
+  text-align: center;
+  color: black !important;
+  font-size: 18px;
+  background: red; 
+  border: none;
+  border-radius: 30px;
+  background: linear-gradient(to left,#5cdb95 50%,  #f5f5f5  50%) right;
+  background-size: 200%;
+  transition: .1s ease-out;
+}
+.buttonx:hover {
+  background-position: left;
+  color: black !important;
+}

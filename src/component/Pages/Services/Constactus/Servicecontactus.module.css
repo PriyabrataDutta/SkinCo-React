@@ -1,0 +1,55 @@
+.servicesmain
+{
+    text-align: center;
+    padding: 5%;
+    background-color: black;
+ 
+ 
+}
+.content
+{
+   display: inline-block;
+   width: 70%;
+    
+}
+
+@media (max-width:600px) {
+.content
+{
+   display: inline-block;
+   width: 100%;   
+}
+
+    
+}
+.content h1
+{
+    color: white;
+    font-size: 40px;
+
+}
+.content p
+{
+    font-weight: 600;
+    color: rgb(166, 166, 206);
+}
+
+.contactus {
+    display: inline-block;
+    padding: 0.8em 2em;
+    text-align: center;
+    color: black !important;
+    font-size: 18px;
+    background: #5cdb95;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to left, #5cdb95 50%, #f5f5f5 50%) right;
+    background-size: 200%;
+    transition: 0.1s ease-out;
+    position: relative;
+    margin-top: 30px;
+  }
+  .contactus:hover {
+    background-position: left;
+    color: black !important;
+  }

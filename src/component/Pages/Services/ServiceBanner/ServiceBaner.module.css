@@ -1,0 +1,137 @@
+.banner
+{
+   overflow: hidden;
+   background-color:black;
+}
+.banner_image
+{
+   background: no-repeat fixed;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;  
+   position: relative;
+   
+ 
+}
+.banner_image img
+{
+ /* height: 720px; */
+}
+@media (max-width:600px) {
+   .banner_image img
+   {
+      height: 100%;
+      /* width:600px; */
+      /* height: 600px; */
+   }
+   
+}
+
+.content
+{
+   position: absolute;
+   bottom: 240px;
+   margin-left: 40px;
+  color: rgb(255, 255, 255);
+  width: 40%;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+.content h2
+{
+   color:  rgb(255, 255, 255);
+   font-size: 60px;
+   font-weight: bold;
+   font-family: "Roboto",sans-serif;
+
+}
+/* .banner div h2
+{
+   color:  black;
+   font-size: 40px;
+   font-weight: bold;
+   font-style: italic;
+}
+.banner div span
+{
+   color:  white;
+   font-weight: bold;
+   font-size: 20px;
+
+} */
+
+.hello
+{
+   position: relative;
+   top: 30px;
+   left: 24px;
+   /* background: linear-gradient(to left, #026670 100%, lightblue 50%) right !important; */
+}
+.navButton {
+   display: inline-block;
+   padding: 0.5em 1em;
+   text-align: center;
+   color: black !important;
+   font-size: 18px;
+   background: #5cdb95;
+   border: none;
+   border-radius: 10px;
+   background: linear-gradient(to left, #5cdb95 50%, #f5f5f5 50%) right;
+   background-size: 200%;
+   transition: 0.1s ease-out;
+   position: relative;
+   margin-top: -7px;
+ }
+ .navButton:hover {
+   background-position: left;
+   color: black !important;
+ }
+@media (max-width:600px)
+{
+   .banner
+{  
+   padding-top: 27%;
+   background-color: black;
+}
+.content
+{
+   position: absolute;
+   bottom: 20px;
+ margin-left: 10px;
+  color: black;
+  width: 50%;
+}
+.content h2
+{
+   color:  white;
+   font-size: 18px;
+   font-weight: bold;
+   font-style: italic;
+
+}
+
+.content span
+{
+   color:  white;
+   font-size: 12px;
+   font-weight: bold;
+   font-style: italic;
+}
+   /* .banner div
+   {
+      margin-top: 20px;
+      width: 100%;
+      margin-left:0;
+      margin-top: 0px;
+      text-align: center;
+
+   } */
+
+   .navButton
+   {
+    
+      font-size: 12px;
+   }
+
+}

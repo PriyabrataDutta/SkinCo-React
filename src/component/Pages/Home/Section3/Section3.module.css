@@ -1,0 +1,102 @@
+
+.section_4_main {
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    /* border: 1px solid red; */
+    background-color: rgb(0, 0, 0);
+  }
+  /* .section_4_main:hover .heading h1  {
+    -webkit-box-shadow: 0px 200px 159px 149px rgba(92,219,149,0.54);
+    -moz-box-shadow: 0px 200px 159px 149px rgba(92,219,149,0.54);
+    box-shadow: 0px 200px 159px 149px rgba(92,219,149,0.54);
+    transition: 500ms;
+
+
+  } */
+
+
+
+
+  
+  .content_section p {
+    text-align: justify;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 3%;
+  }
+  .img_section {
+    flex: 3;
+    margin-left: 200px;
+    border-radius: 30px;
+    /* border: 2px solid red; */
+  }
+  .img_section img
+  {
+    border-radius: 30px;
+  }
+  
+  .content_section button {
+    padding: 1%;
+    float: right;
+    background-color: #d0a37c;
+    color: white;
+    margin-top: 5%;
+    border-radius: 20px;
+    border: 1px white;
+    font-size: large;
+  }
+ 
+  .content_section button:hover {
+    background-color: #3a384e;
+    border: none;
+  }
+  .hello
+{
+   position: relative;
+   top: 30px;
+   left: 24px;
+   height: 30px;
+   /* background: linear-gradient(to left, #026670 100%, lightblue 50%) right !important; */
+}
+
+.heading h1
+{
+  font-size: 36px;
+  padding: 10px;
+  text-align: center;
+  color:#5cdb95;
+  /* background-color: #5cdb95; */
+  border-radius: 5px;
+  width: fit-content;
+  margin: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  line-height: 38px;
+}
+/* .heading h1:hover
+{
+  -webkit-box-shadow: 0px 200px 159px 149px rgba(92,219,149,0.54);
+  -moz-box-shadow: 0px 200px 159px 149px rgba(92,219,149,0.54);
+  box-shadow: 0px 200px 159px 149px rgba(92,219,149,0.54);
+  transition: 1s;
+
+} */
+@media (max-width:600px) {
+  .content_section button {
+    padding: 3%;
+  }
+  .heading h1
+  {
+    font-size: 25px;
+    padding: 7px;
+    color: #5cdb95;
+  }
+  .content_section p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+  }
+}

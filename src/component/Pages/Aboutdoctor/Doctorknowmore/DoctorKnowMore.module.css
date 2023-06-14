@@ -1,0 +1,151 @@
+.main_continer
+{
+  background-color: black;
+  color: white;
+  padding-bottom: 30px;
+}
+
+
+.DoctorContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+.DoctorAboutContainer {
+  display: grid;
+  grid-template-columns: 35% 65%;
+}
+
+.DoctorImage {
+  position: relative;
+  text-align: center;
+}
+.DoctorImage img {
+  width: 100%;
+}
+.DoctorTitle {
+  background-color: #5cdb95;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0px 60px;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    77% 100%,
+    50% 75%,
+    0% 75%
+  );
+  border-radius: 20px;
+  margin-top: -30px;
+}
+.DoctorTitle section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.DoctorTitle p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.DoctorTitle p:first-child {
+  font-weight: bold;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+.DoctorAboutContainer > article {
+  padding: 10px;
+}
+.DoctorDesc p {
+  font-size: 19px;
+  line-height: 35px;
+  text-align: justify;
+  margin: 20px 0px;
+  /* font-weight: 600; */
+}
+@media (max-width:600px){
+  .DoctorDesc p {
+    font-size: 15px;
+  }
+}
+
+.DoctorSpecialitiesContainer {
+  margin: 40px 0px 0px;
+  background-color: #5cdb95;
+  border-radius: 10px;
+  display: flex;
+  padding: 3% 1% 3% 1%;
+  justify-content: center;
+}
+.DoctorSpecialitiesContainer > article {
+  width: 33.33%;
+  margin: 10px;
+  padding-left: 2%;
+  border-right: 1px solid #fff;
+}
+.DoctorSpecialitiesContainer article:last-child {
+  border: none !important;
+}
+.DoctorSpecialitiesContainer > article svg {
+  color: #fff;
+  font-size: 50px;
+
+  font-weight: bold;
+}
+.DoctorSpecialitiesContainer > article h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  margin: 20px 0px;
+}
+.DoctorSpecialitiesContainer > article p {
+  font-size: 17px;
+  color: #fff;
+  line-height: 23px;
+}
+@media (max-width:600px) {
+  .DoctorAboutContainer {
+    grid-template-columns: 100%;
+  }
+  .DoctorSpecialitiesContainer {
+    margin: 40px 0px 0px;
+    background-color: #5cdb95;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 3% 1% 3% 1%;
+    justify-content: center;
+    text-align: center;
+  }
+  .DoctorSpecialitiesContainer > article {
+    width: 100%;
+    margin: 0px;
+    padding-left: 0%;
+    border-right: 1px solid #fff;
+  }
+  
+}
+.navButton {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-align: center;
+  color: black !important;
+  font-size: 18px;
+  background: #5cdb95;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to left, #5cdb95 50%, #f5f5f5 50%) right;
+  background-size: 200%;
+  transition: 0.1s ease-out;
+  position: relative;
+  margin-top: -7px;
+  align-items: center;
+}
+.navButton button{
+  text-align: center;
+}
+
+.navButton:hover {
+  background-position: left;
+  color: black !important;
+}

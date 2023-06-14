@@ -1,0 +1,150 @@
+.mainContaier
+{
+    display: grid;
+    grid-template-columns: 50%  50% ;
+   
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+
+.contentContainer
+{
+    margin-left: 10%;
+    
+}
+.contentContainer h1
+{
+    font-weight:400;
+    color: white;
+    
+}
+.contentContainer h1 span
+{
+    color: #5cdb95;
+    
+}
+.contentContainer p
+{
+    line-height: 35px;
+    font-size: 19px;
+    color: white;
+    text-align: justify;
+}
+/* .imageContaier
+{
+    text-align: center;
+}
+.imageContaier img
+{
+    border-radius: 40px;
+    width: 70%;
+    
+} */
+.contentbx{
+    height: fit-content;
+    BACKGROUND-COLOR: #474336;
+    BORDER-RADIUS: 10PX;
+    margin-top: 50px;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+  }
+  .formbx h1{
+    color: #5cdb95;
+    font-size: 20px;
+  }
+  .formbx p
+  {
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+  
+  }
+  .formbx 
+  {
+    text-align: center;
+    /* margin-top: 80px; */
+    
+  }
+  
+  .formContainer
+  {
+    position: relative;
+    /* margin-bottom: 90px; */
+    /* top: 50px; */
+  }
+  
+  
+  .formContainer input
+  {
+    width: 80%;
+  
+    height: 45px;
+    font-size: 15px;
+    border: none;
+    /* border: solid 1px black; */
+    border-radius: 5px;
+  
+  }
+  .formContainer textarea
+  {
+    width: 80%;
+    height: 110px;
+    font-size: 18px;
+    margin: 20px;
+  }
+@media (max-width:600px) {
+    .mainContaier
+{
+    display: grid;
+    grid-template-columns: 100%;
+    padding-top: 50px;
+    
+}}
+@media (max-width:600px) {
+    .mainContaier
+{
+    display: grid;
+    grid-template-columns: 100%;
+    padding-top: 20px;
+    
+}
+.contentContainer
+{
+    margin: 0;
+    padding: 5%;
+}
+.contentContainer p
+{
+    text-align: justify;
+    line-height: 35px;
+    font-size: 15px;
+}
+.formbx
+{
+  padding-bottom: 5%;
+  text-align: center;
+
+}
+.formContainer
+{
+  top: 0px;
+  margin-bottom: 0px;
+}
+.contentbx{
+  height: fit-content;
+  BACKGROUND-COLOR: #474336;
+  BORDER-RADIUS: 10PX;
+  /* margin-top: 50px; */
+  /* padding: -1px; */
+  width: 80%;
+  margin: auto;
+  margin-bottom: 35px;
+}
+
+
+    
+}

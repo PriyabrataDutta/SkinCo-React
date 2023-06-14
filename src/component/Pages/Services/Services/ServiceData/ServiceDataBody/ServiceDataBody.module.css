@@ -1,0 +1,125 @@
+.bodyCoontiner
+{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.leftcontainer
+{
+    padding: 30px;
+    padding-left: 90px;
+}
+.servicecontent
+{
+    text-align: left;
+    /* padding: 20px; */
+    width: 90%;
+    margin: auto;
+}
+.servicecontent h1
+{
+   color: white;
+   margin: 0;
+}
+.servicecontent h2
+{
+    color: #383838!important;
+    font-size: 25px!important;
+    font-weight: 600!important;
+    margin: 25px 0!important;
+}
+
+.servicecontent p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 10px 0;
+    text-align: justify;
+}
+.servicecontent ul li{
+    color: #818090;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 10px 0;
+    text-align: justify;
+}
+.servicecontent ul li::first-letter{
+    text-transform: capitalize;
+}
+.relatedservice
+{
+    position: relative;
+    /* border: solid 1px red; */
+   
+    border-radius: 10px;
+    background-color: white;
+    /* text-align: center; */
+    width: 85%;
+    height: fit-content;
+    top: 30px;
+}
+.relatedservice h1
+{
+    border-bottom: 0.2px solid rgb(204, 204, 204);
+    /* font-size: px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.historyservices
+{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* gap: 10px; */
+    margin-left: 10px;
+    /* padding: 10px; */
+}
+
+.contentdiv
+{
+    
+}
+.contentdiv p 
+{
+    /* padding: 0; */
+    margin: 0;
+    box-sizing: 0;
+    font-size: 19px ;
+    font-weight: bold;
+}
+.contentdiv p span
+{
+    font-size: 18px;
+    font-weight: 300;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+   
+}
+.contentdiv p
+{
+    font-size: 18px;
+}
+@media (max-width:600px) {
+    .bodyCoontiner
+{
+    /* background-color: black;
+    padding-top: 30px; */
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.leftcontainer
+{
+    /* padding: 30px; */
+    padding-left: 0px;
+}
+.relatedservice
+{
+    width: 100%;
+}
+    
+}

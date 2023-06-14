@@ -1,0 +1,55 @@
+.relatedservice
+{
+    position: sticky;
+    /* border: solid 1px red; */
+    color:black;
+    border-radius: 10px;
+    background-color: white;
+    /* text-align: center; */
+    width: 85%;
+    height: fit-content;
+    top: 100px;
+}
+.relatedservice h1
+{
+    border-bottom: 0.2px solid rgb(204, 204, 204);
+    /* font-size: px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.historyservices
+{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* gap: 10px; */
+    margin-left: 10px;
+    /* padding: 10px; */
+}
+
+.contentdiv
+{
+    
+}
+.contentdiv p 
+{
+    /* padding: 0; */
+    margin: 0;
+    box-sizing: 0;
+    font-size: 19px ;
+    font-weight: bold;
+}
+.contentdiv p span
+{
+    font-size: 18px;
+    font-weight: 300;
+    /* font-family:Georgia, 'Times New Roman', Times, serif; */
+   
+}
+.contentdiv p
+{
+    font-size: 18px;
+}
